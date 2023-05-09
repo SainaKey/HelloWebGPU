@@ -31,7 +31,6 @@ onload = async function(){
 
     // deviceの取得
     const g_adapter = await navigator.gpu.requestAdapter();
-    g_adapter = await navigator.gpu.requestAdapter();
     const g_device = await g_adapter.requestDevice();
 
     const presentationFormat = navigator.gpu.getPreferredCanvasFormat();
